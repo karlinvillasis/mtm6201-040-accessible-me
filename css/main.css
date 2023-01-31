@@ -1,8 +1,8 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: rgba(253, 247, 241, 0.2);
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
 }
 
 h1,
@@ -34,7 +34,7 @@ nav li {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  
+
 }
 
 nav ul li {
@@ -71,10 +71,14 @@ form button {
   text-transform: uppercase;
 }
 
-.site-footer {
-  padding: 2rem 0;
-}
 
-.skip-links {
+.skip-links ul {
+  list-style-type: none;
   text-decoration: none;
 }
+
+footer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
